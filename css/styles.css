@@ -32,6 +32,9 @@ h2 {
   font-size: 40px;
   margin-top: 0;
 }
+h3 {
+  text-align: left;
+}
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
@@ -180,6 +183,7 @@ h3 ~ p {
 .shop-description p:first-of-type {
   margin-top: 20px;
 }
+
 
 .projects{
 background: #EDF2F4;
