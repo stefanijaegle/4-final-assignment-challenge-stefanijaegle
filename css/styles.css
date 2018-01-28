@@ -166,7 +166,8 @@ h3 ~ p {
 p + h3  {
   margin-top: 30px;
 }
-
+/* PROJECTS
+------------------------------------*/
 .shop{
 background: #EDF2F4;
 }
