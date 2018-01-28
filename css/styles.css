@@ -63,6 +63,15 @@ h2 {
   padding: 10px;
   display: inline-block;
 }
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+img{
+  width: 100%;
+  height: auto;
+  padding-bottom: 5%;
+}
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
@@ -104,8 +113,14 @@ footer {
 /*menu buttons*/
 .btn2{
   text-decoration: none;
-  background: #EDF2F4;
+  background: none;
   color: #3b637a;
+  padding: 10px 20px;
+}
+.btn2-active{
+  text-decoration: none;
+  background: none;
+  color: black;
   padding: 10px 20px;
 }
 nav {
@@ -152,6 +167,31 @@ p + h3  {
   margin-top: 30px;
 }
 
+.shop{
+background: #EDF2F4;
+}
+h3 ~ p {
+  margin: 0;
+}
+.shop-description {
+  margin-bottom: 25px;
+}
+.shop-description p:first-of-type {
+  margin-top: 20px;
+}
+
+.projects{
+background: #EDF2F4;
+}
+h3 ~ p {
+  margin: 0;
+}
+.projects-description {
+  margin-bottom: 25px;
+}
+.projects-description p:first-of-type {
+  margin-top: 20px;
+}
 
 /* Media Queries
 -------------------------*/
